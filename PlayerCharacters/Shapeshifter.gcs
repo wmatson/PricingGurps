@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<character id="3f4b2a21-04ee-4b97-8d6e-afdc8b973612" version="4">
+	<created_date>Feb 11, 2020</created_date>
+	<modified_date>Feb 17, 2020, 7:37 AM</modified_date>
+	<profile>
+		<player_name>Wes</player_name>
+		<campaign>Pricing Gurps</campaign>
+		<name>Malleable #4</name>
+		<title>Experiment</title>
+		<age>19</age>
+		<birthday>May 30</birthday>
+		<eyes>White</eyes>
+		<hair>None</hair>
+		<skin>Pale, White</skin>
+		<handedness>Left</handedness>
+		<height>5' 9"</height>
+		<weight>132 lb</weight>
+		<SM>0</SM>
+		<gender>Irrelevant</gender>
+		<race>Human?</race>
+		<body_type>humanoid</body_type>
+		<tech_level>4</tech_level>
+	</profile>
+	<HP>0</HP>
+	<FP>0</FP>
+	<total_points>130</total_points>
+	<ST>10</ST>
+	<DX>10</DX>
+	<IQ>10</IQ>
+	<HT>10</HT>
+	<will>0</will>
+	<perception>0</perception>
+	<speed>0</speed>
+	<move>0</move>
+	<include_punch>true</include_punch>
+	<include_kick>true</include_kick>
+	<include_kick_with_boots>true</include_kick_with_boots>
+	<advantage_list>
+		<advantage version="3">
+			<name>Shapeshifting</name>
+			<type>Physical, Exotic</type>
+			<levels>15</levels>
+			<base_points>100</base_points>
+			<points_per_level>1</points_per_level>
+			<modifier version="1" enabled="no">
+				<name>Cannot Memorize Forms</name>
+				<cost type="percentage">-50</cost>
+				<affects>total</affects>
+				<reference>H18</reference>
+				<notes>Only for Morph.</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Flawed</name>
+				<cost type="percentage">-10</cost>
+				<affects>total</affects>
+				<reference>H18</reference>
+				<notes>Only for Morph. Flawed is mutually incompatible with Cosmetic.</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Needs Sample</name>
+				<cost type="percentage">-5</cost>
+				<affects>total</affects>
+				<reference>H18</reference>
+				<notes>Only for Morph. You must touch the target.</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Needs Sample</name>
+				<cost type="percentage">-15</cost>
+				<affects>total</affects>
+				<reference>H18</reference>
+				<notes>Only for Morph. You must obtain a drop of blood, hair sample, etc. from the target.</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Needs Sample</name>
+				<cost type="percentage">-50</cost>
+				<affects>total</affects>
+				<reference>H18</reference>
+				<notes>Only for Morph. You must eat the entire target.</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Projected Form</name>
+				<cost type="percentage">-50</cost>
+				<affects>total</affects>
+				<reference>H19</reference>
+				<notes> Only for Alternate Form.</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Skinbound</name>
+				<cost type="percentage">0</cost>
+				<affects>total</affects>
+				<reference>H19</reference>
+				<notes>Only for Alternate Form.</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Cosmetic Only</name>
+				<cost type="percentage">-50</cost>
+				<affects>base only</affects>
+			</modifier>
+			<modifier version="1">
+				<name>Temporary Disadvantage (Phantom Voices - Diabolical)</name>
+				<cost type="percentage">-15</cost>
+				<affects>base only</affects>
+				<reference>B148</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Temporary Disadvantage (Frightens Animals)</name>
+				<cost type="percentage">-10</cost>
+				<affects>base only</affects>
+			</modifier>
+			<reference>B83</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Increased Dexterity</name>
+			<type>Physical</type>
+			<levels>1</levels>
+			<points_per_level>20</points_per_level>
+			<modifier version="1" enabled="no">
+				<name>No Fine Manipulators</name>
+				<cost type="percentage">-40</cost>
+				<affects>total</affects>
+			</modifier>
+			<reference>B15</reference>
+			<categories>
+				<category>Advantage</category>
+				<category>Attribute</category>
+			</categories>
+			<attribute_bonus>
+				<attribute>dx</attribute>
+				<amount per_level="yes">1</amount>
+			</attribute_bonus>
+		</advantage>
+		<advantage version="3">
+			<name>Increased Intelligence</name>
+			<type>Mental</type>
+			<levels>1</levels>
+			<points_per_level>20</points_per_level>
+			<reference>B15</reference>
+			<categories>
+				<category>Advantage</category>
+				<category>Attribute</category>
+			</categories>
+			<attribute_bonus>
+				<attribute>iq</attribute>
+				<amount per_level="yes">1</amount>
+			</attribute_bonus>
+		</advantage>
+		<advantage version="3">
+			<name>Guilt Complex</name>
+			<type>Mental</type>
+			<base_points>-5</base_points>
+			<reference>B137</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Nightmares</name>
+			<type>Mental</type>
+			<base_points>-5</base_points>
+			<cr>12</cr>
+			<reference>B144</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Sense of Duty</name>
+			<type>Mental</type>
+			<modifier version="1">
+				<name>Friends and Companions</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B153</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Small Group@</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B153</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Individual@</name>
+				<cost type="points">-2</cost>
+				<affects>total</affects>
+				<reference>B153</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Large Group@</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B153</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>@Entire Race@</name>
+				<cost type="points">-15</cost>
+				<affects>total</affects>
+				<reference>B153</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Every Living Being</name>
+				<cost type="points">-20</cost>
+				<affects>total</affects>
+				<reference>B153</reference>
+			</modifier>
+			<reference>B153</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Unusual Biochemistry</name>
+			<type>Physical</type>
+			<base_points>-5</base_points>
+			<reference>B160</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Pacifism: Cannot Harm Innocents</name>
+			<type>Mental</type>
+			<base_points>-10</base_points>
+			<modifier version="1" enabled="no">
+				<name>Species-Specific</name>
+				<cost type="percentage">-80</cost>
+				<affects>total</affects>
+				<reference>UT32</reference>
+			</modifier>
+			<reference>B148</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Enemy (Plume-hat-man)</name>
+			<type>Social</type>
+			<modifier version="1" enabled="no">
+				<name>Weak Individual</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+				<notes>50% of your starting points</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Equal Individual</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+				<notes>100% of your starting points</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Powerful Individual</name>
+				<cost type="points">-20</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+				<notes>&gt;150% of your starting points</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Weak Group</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Medium Group</name>
+				<cost type="points">-20</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears almost all the time</name>
+				<cost type="multiplier">3</cost>
+				<reference>B36</reference>
+				<notes>15-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears quite often</name>
+				<cost type="multiplier">2</cost>
+				<reference>B36</reference>
+				<notes>12-</notes>
+			</modifier>
+			<modifier version="1">
+				<name>Appears fairly often</name>
+				<cost type="multiplier">1</cost>
+				<reference>B36</reference>
+				<notes>9-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Appears quite rarely</name>
+				<cost type="multiplier">0.5</cost>
+				<reference>B36</reference>
+				<notes>6-</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Large/Powerful Group</name>
+				<cost type="points">-30</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Utterly Formidable Group</name>
+				<cost type="points">-40</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Unknown</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Evil Twin</name>
+				<cost type="points">0</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Evil Twin</name>
+				<cost type="points">-5</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+				<notes>More skilled or extra abilities</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Evil Twin</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B135</reference>
+				<notes>More skilled and extra abilities</notes>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Watcher</name>
+				<cost type="multiplier">0.25</cost>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1" enabled="no">
+				<name>Rival</name>
+				<cost type="multiplier">0.5</cost>
+				<reference>B135</reference>
+			</modifier>
+			<modifier version="1">
+				<name>Hunter</name>
+				<cost type="multiplier">1</cost>
+				<reference>B135</reference>
+			</modifier>
+			<reference>B135</reference>
+			<categories>
+				<category>Disadvantage</category>
+			</categories>
+		</advantage>
+	</advantage_list>
+	<skill_list>
+		<skill version="3">
+			<name>Brawling</name>
+			<difficulty>DX/E</difficulty>
+			<points>12</points>
+			<reference>B182</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<weapon_bonus>
+				<name compare="is">Brawling</name>
+				<specialization compare="is anything"></specialization>
+				<level compare="at least">2</level>
+				<category compare="is anything"></category>
+				<amount per_level="yes">1</amount>
+			</weapon_bonus>
+		</skill>
+		<skill version="3">
+			<name>Disguise</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>4</points>
+			<defaulted_from>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+				<level>6</level>
+				<adjusted_level>6</adjusted_level>
+				<points>-6</points>
+			</defaulted_from>
+			<reference>B187</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Makeup</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Escape</name>
+			<difficulty>DX/H</difficulty>
+			<points>4</points>
+			<defaulted_from>
+				<type>DX</type>
+				<modifier>-6</modifier>
+				<level>5</level>
+				<adjusted_level>5</adjusted_level>
+				<points>-5</points>
+			</defaulted_from>
+			<reference>B192</reference>
+			<categories>
+				<category>Criminal/Street</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Holdout</name>
+			<difficulty>IQ/A</difficulty>
+			<points>4</points>
+			<defaulted_from>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+				<level>6</level>
+				<adjusted_level>6</adjusted_level>
+				<points>-6</points>
+			</defaulted_from>
+			<reference>B200</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Sleight of Hand</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Lockpicking</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>4</points>
+			<defaulted_from>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+				<level>6</level>
+				<adjusted_level>6</adjusted_level>
+				<points>-6</points>
+			</defaulted_from>
+			<reference>B206</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Spy</category>
+				<category>Technical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Scrounging</name>
+			<difficulty>Per/E</difficulty>
+			<points>4</points>
+			<defaulted_from>
+				<type>Per</type>
+				<modifier>-4</modifier>
+				<level>7</level>
+				<adjusted_level>7</adjusted_level>
+				<points>-7</points>
+			</defaulted_from>
+			<reference>B218</reference>
+			<categories>
+				<category>Criminal/Street</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Survival</name>
+			<specialization>Plains</specialization>
+			<difficulty>Per/A</difficulty>
+			<points>4</points>
+			<defaulted_from>
+				<type>Per</type>
+				<modifier>-5</modifier>
+				<level>6</level>
+				<adjusted_level>6</adjusted_level>
+				<points>-6</points>
+			</defaulted_from>
+			<reference>B223</reference>
+			<categories>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Arctic</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Desert</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Island/Beach</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Jungle</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Mountain</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Swampland</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Woodlands</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Area Knowledge</name>
+			<specialization>Emperor's Nation</specialization>
+			<difficulty>IQ/E</difficulty>
+			<points>2</points>
+			<reference>B176</reference>
+			<categories>
+				<category>Everyman</category>
+				<category>Knowledge</category>
+			</categories>
+			<default>
+				<type>Skill</type>
+				<name>Geography</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Explosives</name>
+			<specialization>Demolition</specialization>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<defaulted_from>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+				<level>6</level>
+				<adjusted_level>6</adjusted_level>
+				<points>-6</points>
+			</defaulted_from>
+			<reference>B194</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Military</category>
+				<category>Technical</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<specialization>Combat</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Engineer</name>
+				<specialization>Mining</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Explosives</name>
+				<specialization>Underwater Demolition</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Explosives</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Poisons</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>2</points>
+			<defaulted_from>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+				<level>5</level>
+				<adjusted_level>5</adjusted_level>
+				<points>-5</points>
+			</defaulted_from>
+			<reference>B214</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Medical</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Chemistry</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Pharmacy</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physician</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Stealth</name>
+			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+			<difficulty>DX/A</difficulty>
+			<points>2</points>
+			<defaulted_from>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+				<level>6</level>
+				<adjusted_level>6</adjusted_level>
+				<points>-6</points>
+			</defaulted_from>
+			<reference>B222</reference>
+			<categories>
+				<category>Criminal/Street</category>
+				<category>Police</category>
+				<category>Spy</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Tracking</name>
+			<difficulty>Per/A</difficulty>
+			<points>2</points>
+			<defaulted_from>
+				<type>Per</type>
+				<modifier>-5</modifier>
+				<level>6</level>
+				<adjusted_level>6</adjusted_level>
+				<points>-6</points>
+			</defaulted_from>
+			<reference>B226</reference>
+			<categories>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Blowpipe</name>
+			<difficulty>DX/H</difficulty>
+			<points>1</points>
+			<defaulted_from>
+				<type>DX</type>
+				<modifier>-6</modifier>
+				<level>5</level>
+				<adjusted_level>5</adjusted_level>
+				<points>-5</points>
+			</defaulted_from>
+			<reference>B180</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Camouflage</name>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<defaulted_from>
+				<type>Skill</type>
+				<name>Survival</name>
+				<modifier>-2</modifier>
+				<level>10</level>
+				<adjusted_level>10</adjusted_level>
+				<points>-10</points>
+			</defaulted_from>
+			<reference>B183</reference>
+			<categories>
+				<category>Military</category>
+				<category>Outdoor/Exploration</category>
+			</categories>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Crossbow</name>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<defaulted_from>
+				<type>DX</type>
+				<modifier>-4</modifier>
+				<level>7</level>
+				<adjusted_level>7</adjusted_level>
+				<points>-7</points>
+			</defaulted_from>
+			<reference>B186</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="3">
+			<name>Garrote</name>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<defaulted_from>
+				<type>DX</type>
+				<modifier>-4</modifier>
+				<level>7</level>
+				<adjusted_level>7</adjusted_level>
+				<points>-7</points>
+			</defaulted_from>
+			<reference>B197</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Melee Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+	</skill_list>
+	<equipment_list>
+		<equipment version="6" equipped="yes">
+			<quantity>1</quantity>
+			<description>Crossbow (ST10)</description>
+			<tech_level>2</tech_level>
+			<legality_class>4</legality_class>
+			<value>195</value>
+			<weight>6 lb</weight>
+			<reference>B276</reference>
+			<ranged_weapon>
+				<damage type="imp" base="1d+2"/>
+				<strength>10&#8224;</strength>
+				<accuracy>4</accuracy>
+				<range>200/250</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>1(4)</shots>
+				<bulk>-6</bulk>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Crossbow</name>
+					<modifier>0</modifier>
+				</default>
+			</ranged_weapon>
+			<categories>
+				<category>Missile Weapon</category>
+				<category>UsesAmmoType:Bolt</category>
+			</categories>
+		</equipment>
+		<equipment version="6" equipped="yes">
+			<quantity>1</quantity>
+			<description>Garrote</description>
+			<tech_level>0</tech_level>
+			<legality_class>4</legality_class>
+			<value>2</value>
+			<weight>0.01 lb</weight>
+			<reference>B272</reference>
+			<melee_weapon>
+				<damage type="see B405"/>
+				<reach>C</reach>
+				<parry>No</parry>
+				<block>No</block>
+				<default>
+					<type>Skill</type>
+					<name>Garrote</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+			</melee_weapon>
+			<categories>
+				<category>Melee Weapon</category>
+			</categories>
+		</equipment>
+		<equipment version="6" equipped="yes">
+			<quantity>1</quantity>
+			<description>Blowpipe</description>
+			<tech_level>0</tech_level>
+			<legality_class>4</legality_class>
+			<value>30</value>
+			<weight>1 lb</weight>
+			<reference>B275</reference>
+			<ranged_weapon>
+				<damage type="pi-" base="1d-3"/>
+				<strength>2</strength>
+				<accuracy>1</accuracy>
+				<range>x4</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>1(2)</shots>
+				<bulk>-6</bulk>
+				<default>
+					<type>DX</type>
+					<modifier>-6</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Blowpipe</name>
+					<modifier>0</modifier>
+				</default>
+			</ranged_weapon>
+			<categories>
+				<category>Missile Weapon</category>
+				<category>UsesAmmoType:Dart</category>
+			</categories>
+		</equipment>
+	</equipment_list>
+	<print_settings printer="HP OfficeJet 9010 series PCL-3" units="in">
+		<orientation>portrait</orientation>
+		<width>8.5</width>
+		<height>11</height>
+		<top_margin>0.5</top_margin>
+		<left_margin>0.5</left_margin>
+		<bottom_margin>0.5</bottom_margin>
+		<right_margin>0.5</right_margin>
+		<ink_chromaticity>color</ink_chromaticity>
+		<sides>duplex</sides>
+		<quality>normal</quality>
+		<resolution>30000</resolution>
+	</print_settings>
+</character>
