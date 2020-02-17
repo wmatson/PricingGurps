@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="3e31ed95-c6ba-4fc1-a207-d4cdd448c5f7" version="4">
 	<created_date>Feb 17, 2020</created_date>
-	<modified_date>Feb 17, 2020, 7:54 AM</modified_date>
+	<modified_date>Feb 17, 2020, 7:56 AM</modified_date>
 	<profile>
-		<player_name>Psetm</player_name>
+		<player_name>Bebo</player_name>
+		<campaign>Pricing Gurps</campaign>
 		<name>Abe Bronchetti</name>
 		<age>41</age>
 		<birthday>July 31</birthday>
