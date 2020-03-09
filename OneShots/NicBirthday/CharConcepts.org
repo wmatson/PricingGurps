@@ -1,0 +1,129 @@
+* Jimmy Cooper - Spy
+Jimmy is a spy from a nearby action-movie future, skilled in hand-to-hand combat and spy things. 
+He was driving back to HQ one night, battered, but successful. He passed through a tunnel when suddenly, the electronics in his vehicle went black, his consciousness followed seconds later...
+** Skills
+- Brawling 14
+- Holdout 12
+- Savoir Faire 12
+- Lockpicking 11
+- Pistol 12
+** Status
+ST 10 DX 11 IQ 11 HT 10
+HP 6/10
+[secret] Smuggling a pistol in Nature's pocket, it has six bullets
+
+* Elizabeth Slink - Thief
+Liz is your stereotypical thief of a high fantasy setting. She can pierce skin with daggers as well as she can pierce hearts with her gaze.
+She laughed through the smokescreen of her most recent close call, running nimbly across memorized rooftops of town as the castle guard rose their alarm. 
+Unexpectedly, the shingles beneath her feet suddenly were as clouds, her mind followed shortly...
+** Skills
+- Knife 12
+- Escape 13
+- Lockpicking 14
+- Sex Appeal 12
+- Climbing 13
+- Acrobatics 12
+- Stealth 12
+** Status
+ST 10 DX 12 IQ 10 HT 11
+Speed 6
+
+* Grumble
+A goblin that has recently come of age by joining some travelers to kill giant spiders right before the annual goblin games.
+After seeing the bravery of the heroes, Grumble's cowardice became nervousness. 
+Unfortunately, this led to exploration of the caves on her home island, much to the protest of her best friend Mumble.
+One such spelunking-trip ended in a long fall followed by a blinding flash of light... 
+** Skills
+- Impact Weapon (1 hand) 14
+- Climbing 14
+- Escape 12
+- Disguise 13
+- Acrobatics 11
+- Speak w/ Plants
+** Status
+ST 12 DX 10 IQ 10 HT 10
+Pyromaniac (CR 12)
+[secret] Has draught of Spider Meth (+5 FP immediately, +1 ST and + 1 HT for four hours)
+
+* Earl Prestio - Scholarly Mage
+Earl Prestio loves to explore old ruins, learning about the past and discovering forgotten truths.
+During one trip (over a tree branch, into a hole) he found himself in a new undiscovered place. He passed through a stone archway to find a tall cathedral under the earth. 
+Marveling at the architecture, he failed to check his immediate surroundings. Hands graspsed at his face from behind and stole his wakefulness with an unfamiliar scent...
+** Skills
+- Firebolt 13 (1d burn)
+- Knowledge (Dungeons) 14
+- Minor Healing 13
+- Light 14
+** Status
+ST 8 DX 10 IQ 12 HT 10
+[secret] Recognizes the archictecture
+
+* Max Myrmood - Sellsword
+As a skilled sellsword and daring individual, Max found himself in many odd situations. His most recent job strangely required he be transported into an underground room blindfolded.
+He need only escape from that place to earn the prize of his dreams.
+The employer was a measly gnome, but one skilled in Pact spells. With magical assurance that the contest was real, Max donned a hood...
+** Skills
+- Sword 15
+- Brawling 13
+- Climbing 12
+- Lifting 12
+- Appraisal 11
+** Status
+ST 12 DX 12 IQ 10 HT 10
+
+* Bobby Butcher - Athlete
+Bobby is a natural. Even as a crawling baby, he had a feline grace to his movements. He excels at all he tries. 
+On the night of winning the big homecoming game, Bobby celebrated as any student would: a night of drinking until blackout...
+** Skills
+- Climbing 15
+- Jumping 15
+- Running 15
+- Sports (Rugby) 15
+- Sports (Basketball) 15
+- Swimming 15
+** Status
+ST 11 DX 14 IQ 10 HT 11
+Mild Hangover (-2 to DX and IQ for first hour of the game)
+
+* Gard Grandman - Time traveling weatherman turned guard
+Gard was once a weatherman in an Earth not unlike our own. In a freak accident involving really dense fog and a missed morning alarm, Gard managed to wander into another world that didn't
+appreciate his skills. Luckily, his name blundered him into a post as a town guard on a peaceful island. Old Sarah, a revered woman of the area, granted him a stop to his aging in exchange
+for a different posting every few hundred years. After an unfortunate incident guarding a magical tree, he was defeated and thought himself dead...
+** Skills
+- Weather Sense/TL9 14
+- Spear 14
+- Climbing 12
+- Detect Lies 12
+- Observation 14
+- Intimidation 13
+** Status
+ST 12 DX 11 IQ 10 HT 12
+Speed 6
+
+* Burly
+A simple sailor on an adventuring ship, Burly liked to think of himself as the glue that held the crew together, despite the danger provided by the captain and his direct comrades.
+On one unfortunate adventure, the ship crashed on the blizzardy corner of the world and he followed the captain to a forboding castle. Burly was left to watch the captain's cart and donkey
+while business matters got attention. The captain returned alone and together they made the long trek back towards the shore. Separated in the blizzard, Burly's entire mind went white...
+** Skills
+- Shiphandling 12
+- Crewman/TL4 16
+- Brawling 15
+- Leadership 11
+- Saber 14
+** Status
+ST 13 DX 10 IQ 10 HT 10
+Chummy (CR 12)
+
+* Scamper - Squirrelkin Streetrat
+Scamper was orphaned at a young age by a terrible fire. Years of living on the streets have given him many useful survival skills.
+** Skills
+- Streetwise 12
+- Scrounging 14
+- Climbing 12
+- Filch 14
+- Stealth 14
+- Brachiator (Tarzan vine-swinging)
+** Status
+ST 9 DX 10 IQ 10 HT 10
+Perception 12
+
