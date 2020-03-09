@@ -10,7 +10,6 @@ He was driving back to HQ one night, battered, but successful. He passed through
 ** Status
 ST 10 DX 11 IQ 11 HT 10
 HP 6/10
-[secret] Smuggling a pistol in Nature's pocket, it has six bullets
 
 * Elizabeth Slink - Thief
 Liz is your stereotypical thief of a high fantasy setting. She can pierce skin with daggers as well as she can pierce hearts with her gaze.
@@ -43,7 +42,6 @@ One such spelunking-trip ended in a long fall followed by a blinding flash of li
 ** Status
 ST 12 DX 10 IQ 10 HT 10
 Pyromaniac (CR 12)
-[secret] Has draught of Spider Meth (+5 FP immediately, +1 ST and + 1 HT for four hours)
 
 * Earl Prestio - Scholarly Mage
 Earl Prestio loves to explore old ruins, learning about the past and discovering forgotten truths.
@@ -56,7 +54,6 @@ Marveling at the architecture, he failed to check his immediate surroundings. Ha
 - Light 14
 ** Status
 ST 8 DX 10 IQ 12 HT 10
-[secret] Recognizes the archictecture
 
 * Max Myrmood - Sellsword
 As a skilled sellsword and daring individual, Max found himself in many odd situations. His most recent job strangely required he be transported into an underground room blindfolded.
